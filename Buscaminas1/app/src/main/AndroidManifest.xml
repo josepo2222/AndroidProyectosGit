@@ -11,7 +11,7 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                //http://imajji.net/topic/page/tutorial-%EF%BF%BDcomo-hacer-un-videojuego-buscaminas-parte-7
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
