@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.a1apli.a8fprogmm08.buscabusca.MainActivity">
+
+
+
+
+
+    <item android:title="Instrucciones"
+        android:id="@+id/InstruccionesB"
+        />
+
+    <item android:title="nuevo juego"
+        android:id="@+id/nuevoJuegoB"
+
+        />
+    <group android:id="@+id/dificil"
+        android:menuCategory="secondary"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/pricipiante"
+            android:title="principiante"/>
+        <item android:id="@+id/amateur"
+            android:title="amateur"/>
+        <item android:id="@+id/avanzado"
+            android:title="avanzado"/>
+
+
+    </group>
+    <item android:title="Personajes"
+        android:id="@+id/personajesB" />
+
+
+
+
+</menu>
